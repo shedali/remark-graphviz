@@ -1,0 +1,194 @@
+repo_name: shedali/remark-graphviz
+report_id: 6de246134309b6a3065d941ba5345bdd
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:24:05+00:00'
+requested_by: phryneas
+provider: github
+branch: master
+detected_tools_count: 14
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/shedali/remark-graphviz
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/shedali/remark-graphviz/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brendan Abbott
+  last_updated_on: 2017-08-14 05:59:02.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/shedali/remark-graphviz
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 20.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/shedali/remark-graphviz/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Brendan Abbott
+  last_updated_on: 2017-08-14 05:59:02.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/shedali/remark-graphviz/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Brendan Abbott
+  last_updated_on: 2017-08-14 06:10:48.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/shedali/remark-graphviz/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Brendan Abbott
+  last_updated_on: 2017-08-14 05:59:02.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/shedali/remark-graphviz/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Brendan Abbott
+  last_updated_on: 2017-08-14 05:59:02.000000000 Z
+- name: eslint-config-airbnb-base
+  description: Airbnb's base JS ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb-base
+  version: 11.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/shedali/remark-graphviz/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Brendan Abbott
+  last_updated_on: 2017-08-14 05:59:02.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/shedali/remark-graphviz/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Brendan Abbott
+  last_updated_on: 2017-08-14 06:10:48.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/shedali/remark-graphviz/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Brendan Abbott
+  last_updated_on: 2017-08-14 05:59:02.000000000 Z
+- name: remark-parse
+  description: Remark plugin to parse Markdown
+  package_url: https://www.npmjs.com/remark-parse
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17485/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
+  detection_source_url: https://github.com/shedali/remark-graphviz/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Brendan Abbott
+  last_updated_on: 2017-08-14 06:10:48.000000000 Z
+- name: remark-stringify
+  description: Remark plugin to compile Markdown
+  package_url: https://www.npmjs.com/remark-stringify
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18614/default_b831eda26de3ba8a4563abf7f2a3af117da4db50.png
+  detection_source_url: https://github.com/shedali/remark-graphviz/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Brendan Abbott
+  last_updated_on: 2017-08-14 06:10:48.000000000 Z
+- name: unified
+  description: Interface for processing text using syntax trees
+  package_url: https://www.npmjs.com/unified
+  version: 6.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17259/default_03da3f7f53e439ab3b23ec47828b2f3229885efd.png
+  detection_source_url: https://github.com/shedali/remark-graphviz/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Brendan Abbott
+  last_updated_on: 2017-08-14 05:59:02.000000000 Z
+- name: unist-util-visit
+  description: Recursively walk over unist nodes
+  package_url: https://www.npmjs.com/unist-util-visit
+  version: 1.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17139/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/shedali/remark-graphviz/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Brendan Abbott
+  last_updated_on: 2017-08-14 05:59:02.000000000 Z
